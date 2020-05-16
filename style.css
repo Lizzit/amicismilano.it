@@ -1,0 +1,65 @@
+.border1 {
+    border: solid;
+    border-color: #003399;
+    border-width: 5px;
+    position: relative;
+}
+
+.border3 {
+    border: solid;
+    border-color: gold;
+    border-width: 5px;
+    position: relative;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5em;
+}
+
+.body {
+    background-color: #fffdd0;
+    margin: 0em;
+}
+
+.italy {
+    height: 100px;
+    width: auto;
+}
+
+.english {
+    height: 100px;
+    width: auto;
+}
+
+.langbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.langbtn:hover,
+.langbtn:focus {
+    background-color: #2980B9;
+}
+
+.lang {
+    position: relative;
+    display: inline-block;
+}
+
+.lang-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
