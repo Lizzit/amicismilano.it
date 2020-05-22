@@ -881,3 +881,17 @@ p {
 .show {
     display: block;
 }
+
+.cont {
+    width: 100%;
+    overflow: hidden;
+}
+
+.testo {
+    width: 32%;
+    float: left;
+}
+
+.casa {
+    font-size: 2em;
+}
